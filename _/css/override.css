@@ -1,0 +1,74 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* Custom Colors 
+---------------------------- */
+.custom-pink { background-color: #BA95CF; color: #BA95CF; }
+.custom-light-blue { background-color: #5CAEDE; color: #5CAEDE; }
+.custom-blue { background-color: #1852B6; color: #1852B6; }
+.custom-dark-blue { background-color: #040614; color: #040614; }
+.custom-black { background-color: #040407; color: #040407; }
+.custom-brown { background-color: #5B2A29; color: #5B2A29; }
+.custom-dark-brown { background-color: #2B080B; color: #2B080B; }
+.custom-teal-green { background-color: #04647C; color: #04647C; }
+.custom-green { background-color: #09381E; color: #09381E; }
+
+
+body {
+    background-color: #040614;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #5CAEDE;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
