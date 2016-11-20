@@ -10,8 +10,9 @@
 ---------------------------- */
 .custom-pink { background-color: #BA95CF; color: #BA95CF; }
 .custom-light-blue { background-color: #5CAEDE; color: #5CAEDE; }
-.custom-blue { background-color: #1852B6; color: #1852B6; }
+.custom-blue { background-color: #181C38; color: #181C38; }
 .custom-dark-blue { background-color: #040614; color: #040614; }
+.custom-dark-purple { background-color: #0E0723; color: #0E0723;}
 .custom-black { background-color: #040407; color: #040407; }
 .custom-brown { background-color: #5B2A29; color: #5B2A29; }
 .custom-dark-brown { background-color: #2B080B; color: #2B080B; }
@@ -20,7 +21,7 @@
 
 
 body {
-    background-color: #040614;
+    background-color: #0C0700;
 }
 
 nav ul a,
@@ -28,12 +29,16 @@ nav .brand-logo {
   color: #444;
 }
 
+nav ul a.active {
+    background-color: #a1887f;
+}
+
 p {
   line-height: 2rem;
 }
 
 .button-collapse {
-  color: #5CAEDE;
+  color: #bcaaa4;
 }
 
 .parallax-container {
