@@ -1,19 +1,11 @@
 $(document).ready(function() {
    
     //Intitialize the side-nav
-    $(".button-collapse").sideNav();
-    
-    
-    //Hover Menu Item
-    /*
-    $('#nav li').hover( function() {
-            $(this).css("background-color", "red");
-        }, function(){
-            $(this).css("background-color", "black");
-        }
+    $(".button-collapse").sideNav({
+        'closeOnClick': true
     });
-    */
     
+     
     //Scroll to function
     $('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();

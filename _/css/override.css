@@ -72,6 +72,12 @@ p {
     color: #FF3333 !important;
     text-decoration: underline;
 }
+
+
+#sidenav-overlay {
+    background: none;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
