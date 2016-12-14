@@ -33,6 +33,10 @@ nav ul a.active {
     background-color: #a1887f;
 }
 
+nav ul a:hover {
+    background-color: #a1887f;
+}
+
 p {
   line-height: 2rem;
 }
@@ -51,6 +55,19 @@ p {
     width: 100%;
   }
 
+#logo {
+    padding-top: 10px;
+}
+
+
+#booking a:link {
+    color: #FFFFFF !important;
+}
+
+#booking a:hover {
+    color: #FF3333 !important;
+    text-decoration: underline;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
