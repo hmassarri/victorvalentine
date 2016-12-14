@@ -37,6 +37,10 @@ nav ul a:hover {
     background-color: #a1887f;
 }
 
+.side-nav li a:hover {
+    background-color: #a1887f;
+}
+
 p {
   line-height: 2rem;
 }
