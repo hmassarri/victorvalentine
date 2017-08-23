@@ -1,55 +1,247 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>V I C T O R V A L E N T I N E</title>
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="all">@import "http://www.hugomassarri.com/portfolio/valentine/css/hugo.css";</style>
-<link href="http://www.hugomassarri.com/portfolio/valentine/css/hugo.css" rel="stylesheet" type="text/css" media="screen" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Parallax Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link href="_/css/override.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <script src="_/js/events.js"></script>
 </head>
 
-<body id="index">
 
-<div id="topStrip">
-	
-	<div id="wrapper">
-		<div id="headerLeft"></div>
-		<div id="headerRight"><a href="contact.php">CONTACT</a></div>
-		<div id="headerRight"><a href="remixes.html">REMIXES</a></div>
-		<div id="headerRight"><a href="index.html">HOME</a></div>
+<body>
+    <div class="navbar-fixed">
+    <nav id="toTop" class="black" role="navigation" style="border-bottom: 1px solid #a1887f;">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#index-banner" class="brand-logo white-text">
+                <img id="logo" src="images/logo.png" class="responsive-img" />
+            </a>
+            <ul id="nav" class="right hide-on-med-and-down">
+                <li><a href="#events" class="white-text waves">Events</a></li>
+                <li><a href="#videos" class="white-text waves">Videos</a></li>
+                <li><a href="#remixes" class="white-text waves">Remixes</a></li>
+                <li><a href="#booking" class="white-text waves">Booking</a></li>
+            </ul>
 
-		<div id="mainPanel">
-			<div id="sectionBox">
-				<p class="header">Latest YouTube Video</p>
-				<iframe width="290" height="110" src="http://www.youtube.com/embed/hlSfVA92808" frameborder="0" allowfullscreen></iframe>
-			</div>
-			
-			<div id="sectionBox">
-				<p class="header">Twitter Updates</p>
-				<p class="text">X Building a new remix<br />In the deck: Miles Dyson</p>
-            	<p class="date">12 days ago</p>
-                <br />
-                <p class="text">X <strong>Miami Jack's Party House</strong><br />spinning @ 11:30-12:30 - Electro / Progressive House</p>
-                <p class="date">15 days ago</p>
-			</div>
-			
-			<div id="sectionBox">
-				<p class="header">Latest Remixes</p>
-				<p class="text">Ice Cube vs. K.J.Sawka - "Chrome and Paint"</p>
-			</div>
-		</div>
+            <ul id="nav-mobile" class="side-nav black">
+                <li><div class="user-view">
+                    <div class="background">
+                        <img src="images/dancehall.jpg" height="300" alt="people dancing">
+                    </div>
+                    <a href="#!user"><img class="circle" src="images/remix.jpg" alt=""></a>
+                    <a href="#!name"><span class="white-text name">Victor Valentine</span></a>
+                    <a href="#!email"><span class="white-text email">bookings@electroshock.com</span></a>
+                </div></li>
+                <li><a href="#events" class="white-text waves">Events</a></li>
+                <li><a href="#videos" class="white-text waves">Videos</a></li>
+                <li><a href="#remixes" class="white-text waves">Remixes</a></li>
+                <li><a href="#booking" class="white-text waves">Booking</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    </div>
+    
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center brown-text text-lighten-2" style="background-color: #000; margin-top: 150px; border: 5px solid #bcaaa4;">
+                    <h5 class="header col s12 light">Sunday January 18th: 23:00 @ THE MUSIC: 134 ORCHARD ST. NEW YORK</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/dancehall6.jpg" alt="People Dancing" /></div>
+    </div>
 
-		<div id="footer">
-			<div id="footerLeft">Copyright &copy; 2001-2011, All Rights Reserved, USA.</div>
-			<div id="footerRight"><img src="images/youtube-facebook-twitter2.png" border="0" /></div>
-		</div>
+    <div class="row">
+        <div class="col sm-12 m-12 l-12">&nbsp;</div>
+    </div>
+    <div class="row">
+        <div id="events" class="col sm-12 m-12 l-12">&nbsp;</div>
+    </div>
+    
+    <div class="container">
+        <div class="section">
 
-	</div>
-	
-</div>
+            <!--   Icon Section   -->
+            <div class="row white-text center">
+                <h4 class="light brown-text text-lighten-2"><strong>EVENTS</strong></h4>
+                <script>
+                    showEvents(dates);
+                    showEvents(dates1);
+                    showEvents(dates2);
+                </script>
+            </div>
+        </div>
+    </div>
 
-<div id="middleStrip"></div>
 
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center custom-blue brown-text text-lighten-2">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/dancehall5.jpg" alt="People Dancing 2"></div>
+    </div>
+    <div class="row">
+        <div class="col sm-12 m-12 l-12">&nbsp;</div>
+    </div>
+    <div class="row">
+        <div id="videos" class="col sm-12 m-12 l-12">&nbsp;</div>
+    </div>
+    <div class="container">
+        <div class="section">
+
+            <div class="row center">
+                <h4 class="light brown-text text-lighten-3"><strong>VIDEOS</strong></h4>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZQ3rruYGjLA" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/aQWY7ZC29qQ" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/SnRDTz8UJEA" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/SWLVGCGVb5E" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/EuAOMps4NBg" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="icon-block">
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/qVpz5Dfo5mw" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center custom-blue brown-text text-lighten-3">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/contact.jpg" alt="People Dancing 3"></div>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="col sm-12 m-12 l-12">&nbsp;</div>
+    </div>
+    <div class="row">
+        <div id="remixes" class="col sm-12 m-12 l-12">&nbsp;</div>
+    </div>
+    
+    <div class="container">
+        <div class="section">
+
+            <div class="row white-text center">
+                <h4 class="light brown-text text-lighten-3"><strong>REMIXES</strong></h4>
+                <script>
+                    showRemixes(remix);
+                    showRemixes(remix1);
+                    showRemixes(remix2);
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center custom-blue brown-text text-lighten-3">
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="images/dancehall7.jpg" alt="People Dancing 4" /></div>
+    </div>
+    
+    
+    
+
+    <footer class="page-footer black">
+        <div id="booking" class="container">
+            <div class="row light ">
+                <div class="col l4 s12 center-align">
+                    <h5 class="light brown-text text-lighten-2">Bookings</h5>
+                    <p class="brown-text text-lighten-5">For bookings and events please contact: <br /><a href="mailto:bookings@electroshock.com">bookings@electroshock.com</a></p>
+
+
+                </div>
+                <div class="col l4 s12 center-align">
+                    <h5 class="light brown-text text-lighten-2">Contact</h5>
+                    <ul>
+                        <li><a href="#!">facebook.com/victorvalentine</a></li>
+                        <li><a href="#!">twitter.com/electroshockme</a></li>
+                    </ul>
+                </div>
+                <div class="col l4 s12 center-align">
+                    <h5 class="light brown-text text-lighten-2">Powered By</h5>
+                    <ul>
+                        <li><a href="#!">last.fm</a></li>
+                        <li><a href="#!">loudmusic.com</a></li>
+                        <li><a href="#!">iheartradio.com</a></li>
+                        <li><a href="#!">soundcloud.com/victorvalentine</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                <p><a class="brown-text text-lighten-3" href="#index-banner">Back to Top</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <script src="_/js/init.js"></script>
+    <script src="_/js/scripts.js"></script>
+    
 
 </body>
+
 </html>
